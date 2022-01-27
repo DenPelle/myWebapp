@@ -1,0 +1,79 @@
+:root{
+    --backgroundColor: #b5b9cc ;
+    --btn-color: #CFFBFC;
+    --color: #5c338b;
+    --margin: 5%;
+}
+
+.headerLessThan1200{
+    display:flex;
+    justify-content:space-between;
+    background-color: var(--backgroundColor);
+    border-bottom: 1px solid #bcc7f8;
+    padding: 4px 10px;
+    align-items:center;
+    z-index:100;
+}
+.headerMoreThan1200{
+    display:flex;
+    justify-content:space-between;
+    background-color:var(--backgroundColor);
+    border-bottom: 1px solid #bcc7f8;
+    padding: 4px 10px;
+    align-items:center;
+    z-index:100;
+}
+
+.btn-menu__icon{
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.048) !important;
+}
+
+.innermenu{
+    display:flex;
+    gap: 10px;
+}
+.innermenu-sx{
+    /* margin-left: var(--margin); */
+}
+.innermenu-dx{
+    /* margin-right:var(--margin); */
+}
+
+.menu__arrow_left-icon{
+    padding-right:45px;
+}
+.menu__person-icon{
+    padding: 10px !important;
+    color:var(--btn-color) !important;
+}
+
+.menu__icon{
+    padding: 10px !important;
+    color:var(--btn-color) !important;
+}
+
+.reload__icon{
+    padding: 10px 20px 10px 40px !important;
+    color:var(--btn-color) !important;
+}
+.logo{
+    object-fit:contain;
+    width: 64px;
+    height: 64px;
+    justify-self: center;
+    background: "C:\Users\39391\Desktop\Organizer\VideoGame C++\myWebapp\myWebapp\src\img.png";
+}
+.logo-MoreThan1200{
+    object-fit:contain;
+    height: 7.5%;
+    justify-self: center;
+    position:absolute;
+    margin-left: 45%;
+
+}
+.btn-menu__icon{
+    color:white;
+}
+
+
+
