@@ -58,17 +58,11 @@
 }
 .logo{
     object-fit:contain;
-    width: 64px;
-    height: 64px;
-    justify-self: center;
-    background: "C:\Users\39391\Desktop\Organizer\VideoGame C++\myWebapp\myWebapp\src\img.png";
+    overflow: hidden;
+    width: 165px;
 }
 .logo-MoreThan1200{
-    object-fit:contain;
-    height: 7.5%;
-    justify-self: center;
-    position:absolute;
-    margin-left: 45%;
+    transform:translateX(-100px)
 
 }
 .btn-menu__icon{

@@ -4,6 +4,7 @@ import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@material-ui/core/Button';
 import CachedIcon from '@mui/icons-material/Cached';
+import logo from 'C:/Users/39391/Desktop/Organizer/VideoGame C++/myWebapp/myWebapp/src/img.png'
 
 function HeaderLessThan1200() {
     function refreshPage() {window.location.reload(false);}
@@ -19,9 +20,9 @@ function HeaderLessThan1200() {
             className='btn-menu__icon'>
                 <MenuIcon style={{fontSize:30}} className='menu__icon' aria-label='Menu'/>
         </Button>
-        <div 
+        <img src={logo}
             className='logo'>
-        </div>
+        </img>
 
 
         <Button 

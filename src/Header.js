@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 import './Header.css';
-import HeaderLessThan1200 from './header_components/Header_1200.js';
+import HeaderLessThan1200 from './header_1200/Header_1200.js';
 import HeaderMoreThan1200 from './header+1200/Header+1200.js';
 import IconButton from '@mui/material/IconButton';
 import CachedIcon from '@mui/icons-material/Cached';

@@ -5,6 +5,9 @@ import Button from '@material-ui/core/Button';
 import CachedIcon from '@mui/icons-material/Cached';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import logo from 'C:/Users/39391/Desktop/Organizer/VideoGame C++/myWebapp/myWebapp/src/img.png'
+
+
 
 function HeaderMoreThan1200() {
     function refreshPage() {window.location.reload(false);}
@@ -35,8 +38,8 @@ function HeaderMoreThan1200() {
             </Button>
         </div>
         <img
-            className='logo-MoreThan1200'
-            src="https://st2.depositphotos.com/1768926/7866/v/950/depositphotos_78666192-stock-illustration-a-logo-sample-logo-for.jpg" />
+            className='logo logo-MoreThan1200'
+            src={logo} />
         <div className='innermenu-dx innermenu'>
             <Button
                 style={{
