@@ -1,10 +1,10 @@
 import React from 'react';
 
-function bodyMoreThan1200() {
+function BodyMoreThan1200() {
   return (
   <div>
-
+    
   </div>);
 }
 
-export default bodyMoreThan1200;
+export default BodyMoreThan1200;

@@ -1,12 +1,19 @@
 import React from 'react';
 import "./Body.css"
-import useWindowSize from './useWindowSize';
-import bodyMoreThan1200 from './body+1200/body+1200.js';
-import body_1200 from './body_1200/body_1200.js';
-
+import useWindowSize from './useWindowSize.js';
+import BodyMoreThan1200 from './body+1200/body+1200.js';
+import BodyLessThan1200 from './body_1200/body_1200.js';
 
 function Body() {
-  return <div></div>;
+  
+  const size = useWindowSize();
+
+  return (
+    <div className='body'>
+      {size.width > 1200 && <BodyMoreThan1200/>}
+      {size.width < 1200 && <BodyLessThan1200/>}
+    </div>
+  );
 }
 
 export default Body;

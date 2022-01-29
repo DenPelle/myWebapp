@@ -1,5 +1,5 @@
 :root{
-    --backgroundColor: #b5b9cc ;
+    --backgroundColor: #9fa9db ;
     --btn-color: #CFFBFC;
     --color: #5c338b;
     --margin: 5%;
@@ -9,7 +9,7 @@
     display:flex;
     justify-content:space-between;
     background-color: var(--backgroundColor);
-    border-bottom: 1px solid #bcc7f8;
+    border-bottom: 3px solid #bcc7f8;
     padding: 4px 10px;
     align-items:center;
     z-index:100;
@@ -32,12 +32,7 @@
     display:flex;
     gap: 10px;
 }
-.innermenu-sx{
-    /* margin-left: var(--margin); */
-}
-.innermenu-dx{
-    /* margin-right:var(--margin); */
-}
+
 
 .menu__arrow_left-icon{
     padding-right:45px;
@@ -60,6 +55,7 @@
     object-fit:contain;
     overflow: hidden;
     width: 165px;
+    cursor:pointer;
 }
 .logo-MoreThan1200{
     transform:translateX(-100px)
