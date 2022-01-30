@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Body.css"
 import useWindowSize from './useWindowSize.js';
-import BodyMoreThan1200 from './body+1200/body+1200.js';
-import BodyLessThan1200 from './body_1200/body_1200.js';
+import BodyMoreThan1200 from './components/body+1200/body+1200.js';
+import BodyLessThan1200 from './components/body_1200/body_1200.js';
 
 function Body() {
   

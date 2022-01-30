@@ -5,7 +5,8 @@
 --color: #5c338b;               purple
 --margin: 5%;
 
-
-
-
 */
+.header{
+    position: sticky;
+    top: 0;
+}
