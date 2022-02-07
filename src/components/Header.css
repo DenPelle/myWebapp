@@ -1,27 +1,39 @@
 :root{
-    --backgroundColor: #9fa9db ;
+    --backgroundColor: 8f98c3 ;
     --btn-color: #CFFBFC;
     --color: #5c338b;
     --margin: 5%;
 }
-
+body{
+    min-width: 600px;
+}
 .headerLessThan1200{
     display:flex;
     justify-content:space-between;
-    background-color: var(--backgroundColor);
+    background: #5c338b;
+    background: -webkit-linear-gradient(to right, #5c338b 0%, #8f98c3 46%, #8f98c3 50%, #8f98c3 53%, #5c338b 100%);
+    background: -moz-linear-gradient(to right, #5c338b 0%, #8f98c3 46%, #8f98c3 50%, #8f98c3 53%,  #5c338b 100%);
+    background: linear-gradient(to right, #5c338b 0%, #8f98c3 46%, #8f98c3 50%, #8f98c3 53%, #5c338b 100%);
+
     border-bottom: 3px solid #bcc7f8;
-    padding: 4px 10px;
+    padding: 5px 10px;
     align-items:center;
     z-index:100;
+    height: 100px;
 }
 .headerMoreThan1200{
     display:flex;
     justify-content:space-between;
-    background-color:var(--backgroundColor);
-    border-bottom: 1px solid #bcc7f8;
-    padding: 4px 10px;
+    background: #5c338b;
+    background: -webkit-linear-gradient(to right, #5c338b 0%, #8f98c3 46%, #8f98c3 50%, #8f98c3 53%, #5c338b 100%);
+    background: -moz-linear-gradient(to right, #5c338b 0%, #8f98c3 46%, #8f98c3 50%, #8f98c3 53%,  #5c338b 100%);
+    background: linear-gradient(to right, #5c338b 0%, #8f98c3 46%, #8f98c3 50%, #8f98c3 53%, #5c338b 100%);
+
+    border-bottom: 3px solid #bcc7f8;
+    padding: 5px 10px;
     align-items:center;
     z-index:100;
+    height: 100px;
 }
 
 .btn-menu__icon{
@@ -58,8 +70,7 @@
     cursor:pointer;
 }
 .logo-MoreThan1200{
-    transform:translateX(-100px)
-
+transform:translateX(-50px);
 }
 .btn-menu__icon{
     color:white;

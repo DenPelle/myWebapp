@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link, Switch, Route} from 'react-router-dom';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@material-ui/core/Button';
@@ -8,7 +8,8 @@ import logo from 'C:/Users/39391/Desktop/Organizer/VideoGame C++/myWebapp/myWeba
 
 function HeaderLessThan1200() {
     function refreshPage() {window.location.reload(false);}
-    
+    var isLoggedIn = false;
+
   return (<div className='headerLessThan1200'>
         <Button 
             style={{
@@ -20,9 +21,11 @@ function HeaderLessThan1200() {
             className='btn-menu__icon'>
                 <MenuIcon style={{fontSize:30}} className='menu__icon' aria-label='Menu'/>
         </Button>
+        <Link to="/">
         <img src={logo}
             className='logo'>
-        </img>
+        </img>    
+        </Link>
 
 
         <Button 
